@@ -1,0 +1,29 @@
+@import url(../../../../assets/css/standart-colors.css);
+
+
+.banner {
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    flex-flow: column-reverse;
+    text-align: center;
+    background-color: var(--bg-color);
+    padding: 1.2rem;
+}
+
+.div-texto-banner {
+    color: var(--lista);
+    text-align: center;
+}
+
+.h2-banner {
+    font-size: 2rem;
+}
+.destaque {
+    color: var(--meu-nome);
+}
+
+.foto-banner {
+    width: 80%;
+    padding-bottom: 0.7rem;
+}

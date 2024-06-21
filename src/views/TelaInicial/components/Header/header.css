@@ -1,0 +1,80 @@
+@import url(../../../../assets/css/standart-colors.css);
+
+.hamburguer {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../../../../assets/imgs/hamburguer.svg);
+}
+.container-header {
+    display: flex;
+    height: 10vh;
+    background-color: var(--bg-color);
+
+}
+.div-hamburguer {
+    padding-left: 0.5rem;
+}
+.titulo-header {
+    display: flex;
+    color: var(--meu-nome);
+}
+
+.lista-links-header {
+    display: none;
+    height: 300px;
+}
+
+
+.lista-links-header Link{
+    color: var(--lista);
+}
+
+.links-header {
+    color: var(--lista);
+}
+
+.lista-links-header2 {
+    display: none;
+    flex-flow: column;
+    position: relative;
+    top: 100%;
+    left: 0;
+}
+
+.div-hamburguer {
+    padding-top: 1rem;
+    top: 0;
+    position: absolute;
+}
+
+.lista-links-header2 {
+    font-size: 1.2rem;
+    gap: 0.5rem;
+    background-color: var(--titulo);
+    padding: 1rem;
+}
+
+.links-header {
+    color: var(--bg-color);
+
+}
+
+#amostra-lista {
+    display: none;
+}
+
+#amostra-lista:checked ~ .lista-links-header2{
+    color: var(--lista);
+
+    display: flex;
+}
+
+.div-nomes-header {
+    display: flex;
+    margin: auto;
+
+}
