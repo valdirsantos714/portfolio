@@ -6,36 +6,36 @@ export default function Habilidades() {
             <h2>Habilidades</h2>
             <ul>
                 <li>
-                    <img src="src/assets/imgs/js.svg" alt="Logo javascript" />
+                    <img src="./imgs/js.svg" alt="Logo javascript" />
                 
                 </li>
 
                 <li>
-                    <img src="src/assets/imgs/java.svg" alt="Logo java" />
+                    <img src="./imgs/java.svg" alt="Logo java" />
                 </li>
 
                 <li>
-                    <img src="src/assets/imgs/react.svg" alt="Logo react" />
+                    <img src="./imgs/react.svg" alt="Logo react" />
                 </li>
 
                 <li>
-                    <img className="imgs-habilidades-grandes" src="src/assets/imgs/logo spring boot.png" alt="Logo spring boot" />
+                    <img className="imgs-habilidades-grandes" src="./imgs/logo spring boot.png" alt="Logo spring boot" />
                 </li>
 
                 <li>
-                    <img  className="imgs-habilidades-grandes" src="src/assets/imgs/logo-postgresql.png" alt="Logo postgresql" />
+                    <img  className="imgs-habilidades-grandes" src="./imgs/logo-postgresql.png" alt="Logo postgresql" />
                 </li>
 
                 <li>
-                    <img className="imgs-habilidades-grandes" src="src/assets/imgs/mysql.png" alt="Logo mysql" />
+                    <img className="imgs-habilidades-grandes" src="./imgs/mysql.png" alt="Logo mysql" />
                 </li>
 
                 <li>
-                    <img src="src/assets/imgs/html5.svg" alt="Logo html5" />
+                    <img src="./imgs/html5.svg" alt="Logo html5" />
                 </li>
 
                 <li>
-                    <img src="src/assets/imgs/css3.svg" alt="Logo css3" />
+                    <img src="./imgs/css3.svg" alt="Logo css3" />
                 </li>
 
             </ul>
