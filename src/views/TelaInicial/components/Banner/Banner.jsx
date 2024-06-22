@@ -6,7 +6,7 @@ export default function Banner() {
             <div className="div-texto-banner">
                 <h2 className="h2-banner">Olá, meu nome é Valdir Santos, sou um <span className="destaque">desenvolvedor Fullstack</span></h2>
             </div>
-            <img src="src/assets/imgs/foto perfil.png" alt="Minha foto" className="foto-banner"/>
+            <img src="./imgs/foto perfil.png" alt="Minha foto" className="foto-banner"/>
         
         </section>
     )

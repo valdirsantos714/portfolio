@@ -9,7 +9,7 @@ export default function Educacao() {
                 {/* Cursos da alura*/}
                     <input type="checkbox" id="input-amostra-lista-educacao1" className="inputs-educacao"/>
                     <label  htmlFor="input-amostra-lista-educacao1">
-                        <img src="src/assets/imgs/alura.png" alt="Alura logo" className="logos-educacao"/>
+                        <img src="./imgs/alura.png" alt="Alura logo" className="logos-educacao"/>
                         <h2>Alura escola de tecnologia</h2>
                         <p>Clique para ver os cursos que fiz nesta empresa</p>
                     </label>
@@ -45,7 +45,7 @@ export default function Educacao() {
 
                     <input type="checkbox" id="input-amostra-lista-educacao2" className="inputs-educacao"/>
                     <label htmlFor="input-amostra-lista-educacao2">
-                        <img src="src/assets/imgs/udemy.png" alt="Alura logo" className="logos-educacao"/>
+                        <img src="./imgs/udemy.png" alt="Alura logo" className="logos-educacao"/>
                         <h2>Udemy Cursos online</h2>
                         <p>Clique para ver os cursos que fiz nesta empresa</p>
 
@@ -64,7 +64,7 @@ export default function Educacao() {
                     <input type="checkbox" id="input-amostra-lista-educacao3" className="inputs-educacao"/>
 
                     <label htmlFor="input-amostra-lista-educacao3">
-                        <img src="src/assets/imgs/fundacao-bradesco.png" alt="Alura logo" className="logos-educacao"/>
+                        <img src="./imgs/fundacao-bradesco.png" alt="Alura logo" className="logos-educacao"/>
                         <h2>Fundação Bradesco</h2>
                         <p>Clique para ver os cursos que fiz nesta empresa</p>
 
@@ -104,7 +104,7 @@ export default function Educacao() {
                     <input type="checkbox" id="input-amostra-lista-educacao5" className="inputs-educacao"/>
                     
                     <label htmlFor="input-amostra-lista-educacao5">
-                        <img src="src/assets/imgs/faculdade.png" alt="Alura logo" className="logos-educacao"/>
+                        <img src="./imgs/faculdade.png" alt="Alura logo" className="logos-educacao"/>
                         <h2>Universidade Pitágoras Unopar Anhanguera</h2>
                         <p>Clique para ver qual faculdade estou cursando</p>
 
