@@ -27,3 +27,15 @@
     width: 80%;
     padding-bottom: 0.7rem;
 }
+
+@media (min-width: 1024px) {
+    .banner {
+        display: flex;
+        flex-flow: row;
+        gap: 1rem;
+    }
+
+    .foto-banner {
+        width: 50%;
+    }
+}

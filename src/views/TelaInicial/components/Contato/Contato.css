@@ -16,20 +16,10 @@
     font-size: 1.5rem;
 }
 
-.container-contato ul {
-    padding-left: 10%;
-    align-items: center;
-    background-color: red;
-    padding: 1rem;
-    
-}
-.container-contato li {
+.container-contato h3, p {
     font-size: 1.3rem;
-    display: flex;
-    flex-flow: column wrap;
+
 }
-
-
 
 .container-textos {
     text-align: center;
@@ -46,9 +36,16 @@
     padding-bottom: 1rem;
 }
 
-.container-textos img {
-}
-
 .icones-contato {
     width: 15%;
+}
+
+@media (min-width: 1024px) {
+    .container-contato {
+        display: block;
+    }
+
+    
+
+    
 }

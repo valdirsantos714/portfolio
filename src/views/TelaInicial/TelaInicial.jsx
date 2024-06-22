@@ -6,6 +6,7 @@ import Experiencias from "./components/Experiencias/Experiencias"
 import Habilidades from "./components/Habilidades/Habilidades"
 import Educacao from "./components/Educacao/Educacao"
 import Contato from "./components/Contato/Contato"
+import Footer from "./components/Footer/Footer"
 
 export default function TelaInicial() {
     return (
@@ -17,6 +18,7 @@ export default function TelaInicial() {
             <Experiencias/>
             <Habilidades/>
             <Educacao/>
+            <Footer/>
         </section>
     )
 }

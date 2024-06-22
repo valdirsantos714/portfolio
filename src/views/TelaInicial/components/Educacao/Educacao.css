@@ -82,3 +82,7 @@ label>h2 {
 .inputs-educacao {
     display: none;
 }
+
+@media (min-width: 1024px) {
+    
+}

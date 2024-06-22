@@ -28,3 +28,9 @@
 .imgs-habilidades-grandes {
     width: 100%;
 }
+
+@media (min-width: 1024px) {
+    .container-habilidades img {
+        width: 20%;
+    }
+}

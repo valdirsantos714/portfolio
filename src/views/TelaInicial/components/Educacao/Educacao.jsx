@@ -2,7 +2,7 @@ import "./Educacao.css"
 
 export default function Educacao() {
     return (
-        <section className="container-educacao">
+        <section className="container-educacao" id="educacao">
             <h2 id="titulo-educacao">Educação</h2>
 
                 <div className="amostra-lista-educacao">

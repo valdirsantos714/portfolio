@@ -15,7 +15,7 @@ export default function Contato() {
                 <p>(83) 99609-0365</p>
             </div>
 
-            <div className="container-textos">
+            <div className="container-textos container2">
 
                 <div>
                     <img src="./imgs/email.svg" alt="Email" className="icones-contato"/>

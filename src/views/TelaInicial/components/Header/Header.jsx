@@ -11,20 +11,24 @@ export default function Header() {
                     <span className="hamburguer"></span>
                 </label>
                 <nav className="lista-links-header2">
-                    <Link  className="links-header">Sobre mim</Link>
-                    <Link className="links-header">Experiências</Link>
-                    <Link className="links-header">Educação</Link>
-                    <Link className="links-header">Habilidade</Link>
+                    <a href="#sobre-mim" className="links-header">Sobre mim</a>
+                    <a href="#experiencias" className="links-header">Experiências</a>
+
+                    <a href="#educacao" className="links-header">Educação</a>
+                    
+                    <a href="#habilidades" className="links-header">Habilidades</a>
                 </nav>
             </div>
 
             <div className="div-nomes-header">
                 <h2 className="titulo-header">Valdir Santos </h2>
                 <nav className="lista-links-header">
-                    <Link  className="links-header">Sobre mim</Link>
-                    <Link className="links-header">Experiências</Link>
-                    <Link className="links-header">Educação</Link>
-                    <Link className="links-header">Habilidade</Link>
+                <a href="#sobre-mim" className="links-header">Sobre mim</a>
+                    <a href="#experiencias" className="links-header">Experiências</a>
+
+                    <a href="#educacao" className="links-header">Educação</a>
+                    
+                    <a href="#habilidades" className="links-header">Habilidades</a>
                 </nav>
             </div>
         </header>

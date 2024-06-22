@@ -79,3 +79,28 @@
     margin: auto;
 
 }
+
+@media (min-width: 1024px) {
+    .div-hamburguer {
+        display: none;
+    }
+
+
+    .div-nomes-header {
+        display: flex;
+        gap: 2rem;
+        padding-top: 1rem;
+    }
+
+    .lista-links-header {
+        display: flex;
+        margin-left: auto;
+        gap: 1rem;
+        font-size: 1.3rem;
+    }
+
+    .links-header {
+        color: var(--lista);
+
+    }
+}

@@ -2,7 +2,7 @@ import "./Habilidades.css"
 
 export default function Habilidades() {
     return (
-        <section className="container-habilidades">
+        <section className="container-habilidades" id="habilidades">
             <h2>Habilidades</h2>
             <ul>
                 <li>
