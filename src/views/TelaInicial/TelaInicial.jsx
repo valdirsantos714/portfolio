@@ -5,6 +5,7 @@ import SobreMim from "./components/SobreMim/SobreMim"
 import Experiencias from "./components/Experiencias/Experiencias"
 import Habilidades from "./components/Habilidades/Habilidades"
 import Educacao from "./components/Educacao/Educacao"
+import Contato from "./components/Contato/Contato"
 
 export default function TelaInicial() {
     return (
@@ -12,6 +13,7 @@ export default function TelaInicial() {
             <Header/>
             <Banner/>
             <SobreMim/>
+            <Contato/>
             <Experiencias/>
             <Habilidades/>
             <Educacao/>

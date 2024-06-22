@@ -1,0 +1,54 @@
+@import url(../../../../assets/css/standart-colors.css);
+
+.container-contato {
+    text-align: center;
+    background-color: var(--titulo);
+}
+
+.container-contato h2 {
+    color: var(--bg-color);
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+}
+
+.container-contato h3, p {
+    color: var(--bg-color);
+    font-size: 1.5rem;
+}
+
+.container-contato ul {
+    padding-left: 10%;
+    align-items: center;
+    background-color: red;
+    padding: 1rem;
+    
+}
+.container-contato li {
+    font-size: 1.3rem;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+
+
+.container-textos {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+
+
+}
+
+.container-textos>p {
+    padding-bottom: 1rem;
+}
+
+.container-textos img {
+}
+
+.icones-contato {
+    width: 15%;
+}
