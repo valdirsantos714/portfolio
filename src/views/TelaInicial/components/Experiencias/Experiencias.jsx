@@ -25,9 +25,9 @@ export default function Experiencias() {
                             <h3>Tecnologias Utilizadas</h3>    
                             <div className="lista-tecnologias-experiencias">
                                 
-                                <img src="src/assets/imgs/java.svg" alt="Java logo" className="imgs-experiencia"/>
+                                <img src="./imgs/java.svg" alt="Java logo" className="imgs-experiencia"/>
                                 
-                                <img src="src/assets/imgs/logo spring boot.png" alt="logo spring boot" className="imgs-experiencia"/>
+                                <img src="./imgs/logo spring boot.png" alt="logo spring boot" className="imgs-experiencia"/>
                             
                             </div>
                             </li>
@@ -38,11 +38,11 @@ export default function Experiencias() {
                             <h3>Tecnologias Utilizadas</h3>    
                             <div className="lista-tecnologias-experiencias">
                                   
-                                <img src="src/assets/imgs/js.svg" alt="logo javascript" className="imgs-experiencia"/>
+                                <img src="./imgs/js.svg" alt="logo javascript" className="imgs-experiencia"/>
                                 
-                                <img src="src/assets/imgs/html5.svg" alt="Logo html5" className="imgs-experiencia"/>
+                                <img src="./imgs/html5.svg" alt="Logo html5" className="imgs-experiencia"/>
                                  
-                                <img src="src/assets/imgs/css3.svg" alt="Logo css 3" className="imgs-experiencia"/>
+                                <img src="./imgs/css3.svg" alt="Logo css 3" className="imgs-experiencia"/>
                                 
                             
                             </div>
@@ -54,9 +54,9 @@ export default function Experiencias() {
                             <h3>Tecnologias Utilizadas</h3>    
                             <div className="lista-tecnologias-experiencias">
                                   
-                                <img src="src/assets/imgs/java.svg" alt="Java logo" className="imgs-experiencia"/>
+                                <img src="./imgs/java.svg" alt="Java logo" className="imgs-experiencia"/>
                                 
-                                <img src="src/assets/imgs/logo spring boot.png" alt="logo spring boot" className="imgs-experiencia"/>
+                                <img src="./imgs/logo spring boot.png" alt="logo spring boot" className="imgs-experiencia"/>
                             
                             </div>
                             </li>
@@ -67,9 +67,9 @@ export default function Experiencias() {
                             <h3>Tecnologias Utilizadas</h3>    
                             <div className="lista-tecnologias-experiencias">
                                   
-                                <img src="src/assets/imgs/js.svg" alt="Javscript logo" className="imgs-experiencia"/>
+                                <img src="./imgs/js.svg" alt="Javscript logo" className="imgs-experiencia"/>
                                 
-                                <img src="src/assets/imgs/react.svg" alt="React logo" className="imgs-experiencia"/>
+                                <img src="./imgs/react.svg" alt="React logo" className="imgs-experiencia"/>
                             
                             </div>
                             </li>

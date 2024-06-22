@@ -7,7 +7,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-image: url(./imgs/hamburguer.svg);
+
+    background-image: url(/public/imgs/hamburguer.svg);
 }
 .container-header {
     display: flex;
