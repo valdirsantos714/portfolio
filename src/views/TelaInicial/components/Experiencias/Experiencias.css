@@ -37,5 +37,43 @@
 }
 
 .lista-tecnologias-experiencias {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1.4rem;
+    width: 100%;
+}
+
+.projetos-experiencia {
+    display: none;
+}
+
+#amostra-lista-experiencia {
+    display: none;
+}
+
+#amostra-lista-experiencia:checked ~ .projetos-experiencia {
     display: block;
+}
+
+.imgs-experiencia {
+    width: 25%;
+    padding: 1rem 0;
+    
+}
+.bordas1 {
+    margin: 1rem 0;
+    padding: 1rem 0.3rem;
+    border: 2px solid var(--lista);
+}
+.bordas1 p {
+    padding-top: 0.3rem;
+    color: var(--titulo);
+}
+
+.bordas {
+    margin: 1rem 0.2rem;
+    padding: 1rem 0.3rem;
+    border: 1px solid var(--titulo);
 }

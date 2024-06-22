@@ -1,0 +1,30 @@
+@import url(../../../../assets/css/standart-colors.css);
+
+.container-habilidades {
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--meu-nome);
+}
+
+.container-habilidades h2 {
+    font-size: 2rem;
+    padding: 1rem;
+    color: var(--bg-color);
+}
+
+.container-habilidades ul {
+    display: flex;
+    flex-flow: wrap;
+    width: 100%;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-habilidades li {
+    width: 30%;
+}
+
+.imgs-habilidades-grandes {
+    width: 100%;
+}

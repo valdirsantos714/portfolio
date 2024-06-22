@@ -1,0 +1,84 @@
+@import url(../../../../assets/css/standart-colors.css);
+
+
+.container-educacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-flow: column wrap;
+    text-align: center;
+    background-color: var(--bg-color);
+    
+}
+
+#titulo-educacao {
+    font-size: 2rem;
+}
+
+.container-educacao h2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: var(--lista);
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+.listas-educacao {
+    border-bottom: 1px solid var(--bg-color);
+    display: flex;
+    gap: 1.3rem;
+    padding: 1rem;
+}
+
+.nomes-cursos-educacao {
+    display: none;
+    margin-top: 0.3rem;
+    padding: 0.5rem 1rem;
+    flex-flow: column wrap;
+    width: 80%;
+    gap: 0.4rem;
+    background-color: var(--meu-nome);
+
+}
+
+.nomes-cursos-educacao li {
+    padding: 0.2rem;
+    color: var(--bg-color);
+    font-size: 1.2rem;
+    border: 1px solid var(--bg-color);
+
+}
+
+.logos-educacao {
+    width: 70%;
+}
+
+.inputs-educacao:checked ~ .nomes-cursos-educacao {
+    display: flex;
+}
+
+.amostra-lista-educacao {
+    padding: 0.4rem;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    border: 1px solid var(--meu-nome);
+}
+
+.amostra-lista-educacao p{
+    font-size: 1.2rem;
+    color: var(--titulo);
+}
+
+
+label>h2 {
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.inputs-educacao {
+    display: none;
+}
