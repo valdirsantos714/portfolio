@@ -1,0 +1,19 @@
+@import url(../../../../assets/css/standart-colors.css);
+
+
+.container-sobre-mim {
+    padding: 1.2rem;
+    text-align: center;
+    background-color: var(--meu-nome);
+}
+
+.titulo-sobremim {
+    padding-bottom: 0.3rem;
+    font-size: 1.7rem;
+    color: var(--bg-color);
+}
+
+.container-sobre-mim p {
+    font-size: 1.4rem;
+    color: var(--bg-color);
+}

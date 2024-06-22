@@ -1,0 +1,41 @@
+@import url(../../../../assets/css/standart-colors.css);
+
+
+.container-experiencias {
+    padding: 1rem;
+    color: var(--lista);
+    background-color: var(--bg-color);
+    text-align: center;
+}
+
+.container-experiencias h2{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.lista-experiencias {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista-experiencias p {
+    padding-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.h3-negrito {
+    padding-bottom: 0.3rem;
+    font-size: 1.5rem;
+}
+
+.italico {
+    padding-bottom: 0.3rem;
+    font-size: 1.4rem;
+    font-style: italic;
+}
+
+.lista-tecnologias-experiencias {
+    display: block;
+}
