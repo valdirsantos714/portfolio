@@ -1,6 +1,6 @@
 # Portfólio
 
-Bem-vindo ao repositório do meu portfólio! Este projeto foi desenvolvido utilizando React.js e tem como objetivo demonstrar minhas habilidades e projetos. Abaixo, você encontrará instruções detalhadas de como executar o projeto localmente.
+Bem-vindo ao repositório do meu portfólio! Este projeto foi desenvolvido utilizando React.js e tem como objetivo demonstrar minhas habilidades e projetos. Abaixo, você encontrará instruções detalhadas de como executar o projeto localmente ou se preferir você pode ver o meu portfólio rodando clicando [aqui](https://valdir-dev.netlify.app/)
 
 ## Pré-requisitos
 
