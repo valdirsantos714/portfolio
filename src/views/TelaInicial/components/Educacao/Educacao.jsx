@@ -1,10 +1,32 @@
 import "./Educacao.css"
 
 export default function Educacao() {
+
+    const cursosAlura = ["React: desenvolvendo em React Router com JavaScript,PostgreSQL: desenvolva com PL/pgSQL Java: consumindo API gravando arquivos e lidando com erros, JavaScript: programando a Orientação a Objetos, JavaScript: validações e reconhecimento de voz, Lógica de programação: mergulhe em programação com JavaScript, Html e CSS: Responsividade com Mobile-First, CSS: Flexbox e Layouts Responsivos,HTML E CSS: Trabalhando com Responsividade e Publicação de Projetos, PostgreSQL"];
+
+    const cursosUdemy = ["Git Completo: Do Básico ao Avançado, Java COMPLETO Programação Orientada a Objetos + Projetos"]
+
+    const cursosFundacaoBradesco = ["Linguagem de Programação Java - Avançado, Linguagem de Programação Java - Básico, Fundamentos de Lógica de Programação"]
+
+    const cursosFortecCursos = ["Operador de Micro, Liderança"]
+
+    const faculdade = ["Bacharelando em Sistemas de Informação"]
+
+    const amostraListas = (lista) => {
+        const novaLista = lista[0].split(","); //Divide a lista pela virgula
+
+        return novaLista.map((l) => ( //Amostra a lista
+            <>
+                <li>{l}</li>
+            </>
+        ))
+    }
+
     return (
         <section className="container-educacao" id="educacao">
+            
             <h2 id="titulo-educacao">Educação</h2>
-
+            <div className="nomes-empresas">
                 <div className="amostra-lista-educacao">
                 {/* Cursos da alura*/}
                     <input type="checkbox" id="input-amostra-lista-educacao1" className="inputs-educacao"/>
@@ -15,28 +37,7 @@ export default function Educacao() {
                     </label>
 
                     <ul className="nomes-cursos-educacao">
-                        <li>React: desenvolvendo em React Router com JavaScript</li>
-
-                        <li>PostgreSQL: desenvolva com PL/pgSQL</li>
-
-                        <li>Java: consumindo API, gravando arquivos e lidando com erros</li>
-
-                        <li>JavaScript: programando a Orientação a Objetos
-                        </li>
-
-                        <li>JavaScript: validações e reconhecimento de voz</li>
-
-                        <li>Lógica de programação: mergulhe em programação com JavaScript</li>
-
-                        <li>Html e CSS: Responsividade com Mobile-First</li>
-
-                        <li>CSS: Flexbox e Layouts Responsivos</li>
-
-                        <li>CSS: Flexbox e Layouts Responsivos</li>
-
-                        <li>HTML E CSS: Trabalhando com Responsividade e Publicação de Projetos</li>
-
-                        <li>PostgreSQL</li>
+                        {amostraListas(cursosAlura)}
                     </ul>
                 </div>
 
@@ -51,10 +52,9 @@ export default function Educacao() {
 
                     </label>
 
-                        <ul className="nomes-cursos-educacao">
-                            <li>Git Completo: Do Básico ao Avançado</li>
-                            <li>Java COMPLETO Programação Orientada a Objetos + Projetos</li>
-                        </ul>
+                    <ul className="nomes-cursos-educacao">
+                        {amostraListas(cursosUdemy)}
+                    </ul>
                 </div>
                 {/* Cursos do bradesco*/}
                 
@@ -71,12 +71,7 @@ export default function Educacao() {
                     </label>
 
                     <ul className="nomes-cursos-educacao">
-                        <li>Linguagem de Programação Java - Avançado </li>
-
-                        <li>Linguagem de Programação Java - Básico </li>
-
-                        <li>Fundamentos de Lógica de
-                        Programação</li>
+                        {amostraListas(cursosFundacaoBradesco)}
                     </ul>
                 </div>
                 
@@ -92,9 +87,7 @@ export default function Educacao() {
                     </label>
 
                     <ul className="nomes-cursos-educacao">
-                        <li>Operador de Micro </li>
-                        
-                        <li>Liderança</li>
+                        {amostraListas(cursosFortecCursos)}
                     </ul>
                 </div>
 
@@ -111,10 +104,10 @@ export default function Educacao() {
                     </label>
 
                     <ul className="nomes-cursos-educacao">
-                        <li>Bacharelando em Sistemas de Informação </li>
+                        {amostraListas(faculdade)}
                     </ul>
                </div>
-            
+               </div>
         </section>
     )
 }

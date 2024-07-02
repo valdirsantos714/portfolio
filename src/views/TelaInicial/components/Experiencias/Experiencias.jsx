@@ -4,7 +4,7 @@ export default function Experiencias() {
     return(
         <section className="container-experiencias" id="experiencias">
             <h2>Experiências</h2>
-            <div>
+            <div className="div-lista-experiencias">
                 <ul className="lista-experiencias">
                     <li className="bordas1">
                         <h3 className="h3-negrito">Caixa em Severino Motos</h3>

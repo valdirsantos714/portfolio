@@ -9,3 +9,20 @@ footer {
     text-align: center;
     padding: 1rem;
 }
+
+
+@media (min-width: 1024px) {
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column wrap;
+    }
+}
+
+@media (min-width: 1728px) {
+
+    footer {
+        font-size: 2rem;
+    }
+}

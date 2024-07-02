@@ -1,10 +1,28 @@
 @import url(../../../../assets/css/standart-colors.css);
 
+@keyframes subir {
+    to {
+        transform: scale(1.0);
+    } from {
+        transform: scale(0.5);
+    }
+}
+
+@keyframes opacidade {
+    to {
+        opacity: 1;
+
+    } from {
+        opacity: 0;
+    }
+}
 
 .banner {
+    height: 90vh;
     margin-top: 0;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-flow: column-reverse;
     text-align: center;
     background-color: var(--bg-color);
@@ -17,6 +35,7 @@
 }
 
 .h2-banner {
+    animation: subir 1.3s 1;
     font-size: 2rem;
 }
 .destaque {
@@ -24,6 +43,7 @@
 }
 
 .foto-banner {
+    animation: opacidade 1.5s;
     width: 80%;
     padding-bottom: 0.7rem;
 }
@@ -36,11 +56,32 @@
     }
 
     .foto-banner {
-        width: 50%;
+        width: 35%;
     }
 
     .h2-banner {
         font-size: 2.8rem;
     }
     
+}
+
+@media (min-width: 1728px) {
+
+    .banner {
+        gap: 10rem;
+    }
+    .div-texto-banner {
+        width: 30%;
+
+    }
+
+    .foto-banner {
+        width: 40%;
+    }
+
+    
+
+    .h2-banner {
+        font-size: 3.2rem;
+    }
 }

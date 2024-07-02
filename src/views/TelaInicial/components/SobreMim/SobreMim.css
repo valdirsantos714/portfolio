@@ -1,5 +1,13 @@
 @import url(../../../../assets/css/standart-colors.css);
 
+@keyframes subir {
+    to {
+        padding-top: 0;
+
+    } from {
+        padding-top: 1rem;
+    }
+}
 
 .container-sobre-mim {
     padding: 1.2rem;
@@ -8,12 +16,14 @@
 }
 
 .titulo-sobremim {
+    animation: subir 1s;
     padding-bottom: 0.3rem;
     font-size: 1.7rem;
     color: var(--bg-color);
 }
 
 .container-sobre-mim p {
+    animation: subir 1.2s;
     font-size: 1.4rem;
     color: var(--bg-color);
 }
@@ -27,7 +37,36 @@
         font-size: 1.6rem;
     }
 
+    .texto-sobremim {
+        height: 50vh;
+        padding: 2rem;
+    }
+
     .titulo-sobremim {
         font-size: 2rem;
+    }
+}
+
+@media (min-width: 1728px) {
+
+    .container-sobre-mim {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .texto-sobremim {
+        text-align: center;
+        width: 60%;
+    }
+
+    .texto-sobremim h2 {
+        font-size: 3rem;
+        padding: 1rem;
+    }
+
+    .container-sobre-mim p {
+        font-size: 2.5rem;
     }
 }

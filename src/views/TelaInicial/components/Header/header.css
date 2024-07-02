@@ -1,5 +1,10 @@
 @import url(../../../../assets/css/standart-colors.css);
 
+html {
+    scroll-behavior: smooth; /*Rolagem suave*/
+
+}
+
 .hamburguer {
     display: flex;
     width: 40px;
@@ -26,7 +31,6 @@
 
 .lista-links-header {
     display: none;
-    height: 300px;
 }
 
 
@@ -102,5 +106,16 @@
     .links-header {
         color: var(--lista);
 
+    }
+}
+
+@media (min-width: 1728px) {
+
+    header h2{
+        font-size: 2.5rem;        
+    }
+
+    .lista-links-header a {
+        font-size: 2.5rem;
     }
 }

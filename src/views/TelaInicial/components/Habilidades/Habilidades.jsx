@@ -15,7 +15,7 @@ export default function Habilidades() {
                 </li>
 
                 <li>
-                    <img src="./imgs/react.svg" alt="Logo react" />
+                    <img src="./imgs/react.svg" alt="Logo react" className="react"/>
                 </li>
 
                 <li>
