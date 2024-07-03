@@ -34,6 +34,7 @@
     text-align: center;
 }
 
+
 .h2-banner {
     animation: subir 1.3s 1;
     font-size: 2rem;
@@ -46,6 +47,7 @@
     animation: opacidade 1.5s;
     width: 80%;
     padding-bottom: 0.7rem;
+    border-radius: 50%;
 }
 
 @media (min-width: 1024px) {

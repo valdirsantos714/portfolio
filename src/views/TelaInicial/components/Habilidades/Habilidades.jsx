@@ -31,6 +31,10 @@ export default function Habilidades() {
                 </li>
 
                 <li>
+                    <img className="imgs-habilidades-grandes" src="./imgs/git-alt.svg" alt="Logo mysql" />
+                </li>
+
+                <li>
                     <img src="./imgs/html5.svg" alt="Logo html5" />
                 </li>
 
