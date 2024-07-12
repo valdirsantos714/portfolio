@@ -13,7 +13,7 @@ html {
     background-size: cover;
     background-position: center;
 
-    background-image: url(/public/imgs/hamburguer.svg);
+    background-image: url(/public/imgs/barras.svg);
 }
 .container-header {
     display: flex;
@@ -26,6 +26,7 @@ html {
 }
 .titulo-header {
     display: flex;
+    align-items: center;
     color: var(--meu-nome);
 }
 

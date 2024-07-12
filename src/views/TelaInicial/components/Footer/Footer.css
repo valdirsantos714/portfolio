@@ -9,6 +9,10 @@ footer {
     text-align: center;
     padding: 1rem;
 }
+a {
+    font-size: 1.1rem;
+    padding-top: 1rem;
+}
 
 
 @media (min-width: 1024px) {
@@ -16,8 +20,15 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-flow: column wrap;
+        flex-flow: column;
+        height: 20vh;
+
     }
+
+    a {
+        padding: 1rem;
+    }
+    
 }
 
 @media (min-width: 1728px) {

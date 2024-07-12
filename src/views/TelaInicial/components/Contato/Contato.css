@@ -18,8 +18,11 @@
     }
 }
 
-
 .container-contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
     height: 80vh;
     text-align: center;
     background-color: var(--titulo);
@@ -66,7 +69,12 @@
     display: none;
  }
 
+ div {
+    padding-top: 0.5rem;
+ }
+
 @media (min-width: 1024px) {
+
 
     .flex {
         justify-content: center;
@@ -92,6 +100,10 @@
 }
 
 @media (min-width: 1728px) {
+
+    p>a {
+        font-size: 2rem;
+    }
 
     .container-contato h2 {
         font-size: 2.8rem;

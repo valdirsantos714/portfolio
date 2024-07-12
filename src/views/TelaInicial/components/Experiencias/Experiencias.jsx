@@ -20,58 +20,35 @@ export default function Experiencias() {
                         </label>
                         <ul className="projetos-experiencia">
                             <li className="bordas">
-                            <h3 className="h3-negrito">Projeto: Api de Gerenciamento de Conta </h3>
-                            <p>Uma Api simples criada com Java e Spring Boot 3 eficiente e fácil de usar para aplicações que necessitam gerenciar usuários, juntamente com suas contas e listas de produtos. </p>
-                            <h3>Tecnologias Utilizadas</h3>    
-                            <div className="lista-tecnologias-experiencias">
-                                
-                                <img src="./imgs/java.svg" alt="Java logo" className="imgs-experiencia"/>
-                                
-                                <img src="./imgs/logo spring boot.png" alt="logo spring boot" className="imgs-experiencia"/>
-                            
-                            </div>
+                            <h3 className="h3-negrito">Projeto: Refúgio Bíblico </h3>
+                            <p>Site interativo que permite aos usuários ler a Bíblia e interagir com um chatbot para tirar dúvidas sobre o conteúdo bíblico, utilizando Inteligência Artificial. </p>
+                            <h3 className="h3-negrito">Tecnologias Utilizadas:</h3>    
+                            <p>React JS, Tailwind CSS, IA do Gemini, React Router DOM.</p>
+                            <a href="https://refugio-biblico.netlify.app/" target="_blank">Clique aqui para ver o projeto</a>
                             </li>
 
                             <li className="bordas">
-                            <h3 className="h3-negrito">Projeto: AluraBooks </h3>
-                            <p>Um simples site de venda de livros de programação. </p>
-                            <h3>Tecnologias Utilizadas</h3>    
-                            <div className="lista-tecnologias-experiencias">
-                                  
-                                <img src="./imgs/js.svg" alt="logo javascript" className="imgs-experiencia"/>
-                                
-                                <img src="./imgs/html5.svg" alt="Logo html5" className="imgs-experiencia"/>
-                                 
-                                <img src="./imgs/css3.svg" alt="Logo css 3" className="imgs-experiencia"/>
-                                
-                            
-                            </div>
+                            <h3 className="h3-negrito">Projeto: Plann.er </h3>
+                            <p>Api que permite o planejamento e gerenciamento de viagens de forma colaborativa. </p>
+                            <h3 className="h3-negrito">Tecnologias Utilizadas:</h3>    
+                            <p>Java 17, Spring Boot, Spring Data JPA, Spring Web, Lombok, Validation, Spring Boot DevTools, Flyway, Maven, PostgreSQL.</p>
+                            <a href="https://github.com/valdirsantos714/plann.er" target="_blank">Clique aqui para ver o projeto</a>
                             </li>
 
                             <li className="bordas">
                             <h3 className="h3-negrito">Projeto: Api de Rede Social </h3>
                             <p>Api para redes sociais, na qual os usuários podem fazer postagens e interagir com elas através de comentários </p>
-                            <h3>Tecnologias Utilizadas</h3>    
-                            <div className="lista-tecnologias-experiencias">
-                                  
-                                <img src="./imgs/java.svg" alt="Java logo" className="imgs-experiencia"/>
-                                
-                                <img src="./imgs/logo spring boot.png" alt="logo spring boot" className="imgs-experiencia"/>
-                            
-                            </div>
+                            <h3 className="h3-negrito">Tecnologias Utilizadas:</h3>    
+                            <p>Java 17, Spring Boot, MySQL, Maven, Spring Data JPA</p>
+                            <a href="https://github.com/valdirsantos714/social-network-ApiRestFul" target="_blank">Clique aqui para ver o projeto</a>
                             </li>
 
                             <li className="bordas">
-                            <h3 className="h3-negrito">Projeto: Calculadora de Imc </h3>
-                            <p>O aplicativo oferece umainterface simples e fácil de se usar, através dele é possível calcular seu Imc facilmente </p>
-                            <h3>Tecnologias Utilizadas</h3>    
-                            <div className="lista-tecnologias-experiencias">
-                                  
-                                <img src="./imgs/js.svg" alt="Javscript logo" className="imgs-experiencia"/>
-                                
-                                <img src="./imgs/react.svg" alt="React logo" className="imgs-experiencia"/>
-                            
-                            </div>
+                            <h3 className="h3-negrito">Projeto: Api de Gerenciamento de Conta</h3>
+                            <p>Api para que permite gerenciar estoques de produtos e o cadastro de pessoas no sistema através de contas. </p>
+                            <h3 className="h3-negrito">Tecnologias Utilizadas:</h3> 
+                            <p>Java 17, Spring Boot, Spring Data JPA, Spring Web, Lombok, Validation, Maven, MySQL.</p>
+                            <a href="https://github.com/valdirsantos714/account-management-api" target="_blank">Clique aqui para ver o projeto</a>   
                             </li>
                         </ul>
                     </li>

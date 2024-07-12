@@ -7,6 +7,11 @@
         opacity: 0;
     }
 }
+.projetos-experiencia a {
+    color: var(--lista);
+    font-size: 1.3rem;
+    
+}
 
 .container-experiencias {
     animation: aumentar 2s;
@@ -82,13 +87,21 @@
 
 .bordas {
     margin: 1rem 0.2rem;
-    padding: 1rem 0.3rem;
+    padding: 1rem 0.5rem;
     border: 1px solid var(--titulo);
 }
 
 @media (min-width: 1024px) {
     .imgs-experiencia {
         width: 5%;
+    }
+
+    .bordas {
+        padding: 1rem 1rem;
+    
+    }
+    .projetos-experiencia a {
+        font-size: 1.4rem;
     }
 }
 
@@ -126,5 +139,9 @@
 
     .lista-experiencias p {
         font-size: 2.3rem;
+    }
+
+    .projetos-experiencia a {
+        font-size: 1.9rem;
     }
 }

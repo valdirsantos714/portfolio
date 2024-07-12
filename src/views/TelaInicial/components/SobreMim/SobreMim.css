@@ -39,7 +39,11 @@
 
     .texto-sobremim {
         height: 50vh;
-        padding: 2rem;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+
     }
 
     .titulo-sobremim {
