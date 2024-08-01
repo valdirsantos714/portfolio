@@ -2,3 +2,23 @@ a:hover {
     opacity: 80%;
 }
 
+:root {
+    --bg-color: #0C356A;
+    --meu-nome: #279EFF;
+    --titulo: #40F8FF;
+    --lista: #D5FFD0;
+}
+
+body {
+    font-family: Arial;
+    background-color: var(--bg-color);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}

@@ -1,4 +1,5 @@
 import "./Contato.css"
+import { Div } from "./components/Div"
 
 export default function Contato() {
     return (
@@ -8,7 +9,7 @@ export default function Contato() {
            
             <div className="celular-contato">
 
-
+            <Div srcImg={"./imgs/phone.svg" } alt={"Telefone"} h3={"Telefone:"} p={"(83) 99609-0365"}/>
             <div className="container-textos">
 
                 <div>

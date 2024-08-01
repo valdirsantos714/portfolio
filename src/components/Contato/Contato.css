@@ -1,0 +1,132 @@
+@keyframes subir {
+    to {
+        transform: scale(1.0);
+    } from {
+        transform: scale(0.5);
+    }
+}
+
+@keyframes opacidade {
+    to {
+        opacity: 1;
+
+    } from {
+        opacity: 0;
+    }
+}
+
+.container-contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    height: 80vh;
+    text-align: center;
+    background-color: var(--titulo);
+}
+
+.container-contato h2 {
+    padding: 1rem;
+    color: var(--bg-color);
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+}
+
+.container-contato h3, p {
+    animation: opacidade 1s;
+    color: var(--bg-color);
+    font-size: 1.5rem;
+}
+
+.container-contato h3, p {
+    font-size: 1.3rem;
+
+}
+
+.container-textos {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+
+
+}
+
+.container-textos>p {
+    padding-bottom: 1rem;
+}
+
+.icones-contato {
+    width: 15%;
+}
+
+.flex {
+    display: none;
+ }
+
+ div {
+    padding-top: 0.5rem;
+ }
+
+@media (min-width: 1024px) {
+
+
+    .flex {
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+        gap: 2rem;
+        flex-flow: row wrap;
+        display: flex;
+    }
+
+    .celular-contato {
+        display: none;
+    }
+
+    .flex h3 {
+        font-size: 1.7rem;
+    }
+
+    .flex p {
+        font-size: 1.5rem;
+    }
+    
+}
+
+@media (min-width: 1728px) {
+
+    p>a {
+        font-size: 2rem;
+    }
+
+    .container-contato h2 {
+        font-size: 2.8rem;
+    }
+
+    .div-flex {
+        width: 80%;
+        height: 80%;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .div-flex h3 {
+        font-size: 2.5rem;
+    }
+
+    .div-flex p {
+        font-size: 2.3rem;
+    }
+
+    .flex {
+        gap:5rem;
+    }
+
+    
+}

@@ -1,14 +1,21 @@
+import { useState } from "react"
 import "./header.css"
 
 export default function Header() {
+
+    const [isTrue,setIsTrue] = useState(false)
+
+    const mostrarLista = () => {
+        setIsTrue(prevState => !prevState);
+    }
     return (
         <header className="container-header">
 
-            <div className="div-hamburguer">
-                <input type="checkbox" name="amostra-lista" id="amostra-lista" />
-                <label htmlFor="amostra-lista">
-                    <span className="hamburguer"></span>
-                </label>
+            <div className="div-celular">
+                
+                <img className="hamburguer" src="/imgs/barras.svg" onClick={mostrarLista}/>
+                
+                {isTrue && (
                 <nav className="lista-links-header2">
                     <a href="#sobre-mim" className="links-header">Sobre mim</a>
                     <a href="#experiencias" className="links-header">Experiências</a>
@@ -17,6 +24,8 @@ export default function Header() {
                     
                     <a href="#habilidades" className="links-header">Habilidades</a>
                 </nav>
+                )}
+
             </div>
 
             <div className="div-nomes-header">
