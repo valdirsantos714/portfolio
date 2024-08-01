@@ -1,36 +1,41 @@
-footer {
-    height: 12vh;
+.footer {
+    height: auto;
     background-color: var(--titulo);
     color: var(--bg-color);
     font-size: 1rem;
     text-align: center;
     padding: 1rem;
 }
-a {
+
+.copyright {
+    padding-bottom: 0.5rem;
+}
+.link_repositorio {
+    margin-top: 1rem;
     font-size: 1.1rem;
-    padding-top: 1rem;
+    padding: 1rem;
 }
 
 
 @media (min-width: 1024px) {
-    footer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-flow: column;
-        height: 20vh;
+    .footer {
+        padding: 1.2rem;
+        
 
     }
 
-    a {
-        padding: 1rem;
+    .link_repositorio {
+        font-size: 1.5rem;
     }
     
 }
 
 @media (min-width: 1728px) {
+    .copyright {
+        font-size: 2.2rem;
+    }
 
-    footer {
-        font-size: 2rem;
+    .link_repositorio {
+        font-size: 1.8rem;
     }
 }
