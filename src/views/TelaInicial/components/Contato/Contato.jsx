@@ -51,7 +51,7 @@ export default function Contato() {
                 </div>
 
                 <h3>Linkedln</h3>
-                <p> <a href="https://www.linkedin.com/in/valdir-santos-da-cunha-8553002a4/" target="_blank">/valdirsantosdacunha </a></p>
+                <p> <a href="https://www.linkedin.com/in/valdir-santos-8553002a4/" target="_blank">/valdirsantosdacunha </a></p>
 
             </div>
         </div>
