@@ -9,79 +9,36 @@ export default function Contato() {
            
             <div className="celular-contato">
 
-            <Div srcImg={"./imgs/phone.svg" } alt={"Telefone"} h3={"Telefone:"} p={"(83) 99609-0365"}/>
-            <div className="container-textos">
+            <Div srcImg={"/imgs/phone.svg" } alt={"Telefone"} h3={"Telefone:"} p={"(83) 99609-0365"}/>
 
-                <div>
-                    <img src="./imgs/phone.svg" alt="Github" className="icones-contato"/>
-                </div>
+            <Div srcImg={"/imgs/email.svg"  } alt={"Email"} h3={"Email:"} p={"valdirsantost40@gmail.com"}/>
 
-                <h3>Telefone:</h3>
-                <p>(83) 99609-0365</p>
-            </div>
+            <Div srcImg={"/imgs/github.svg" } alt={"github"} h3={"GitHub:"} p={<a href="https://github.com/valdirsantos714" target="_blank"> /valdirsantos714</a>}/>
 
-            <div className="container-textos container2">
+            <Div srcImg={"/imgs/linkedin.svg" } alt={"linkedin"} h3={"Linkedin:"} p={<a href="https://www.linkedin.com/in/valdir-santos-8553002a4/" target="_blank">/valdirsantosdacunha </a>}/>
 
-                <div>
-                    <img src="./imgs/email.svg" alt="Email" className="icones-contato"/>
-                </div>
-
-                <h3>Email:</h3>
-                <p>valdirsantost40@gmail.com</p>
-
-            </div>
-
-            <div className="container-textos">
-
-                <div>
-                    
-                    <img src="./imgs/github.svg" alt="Github" className="icones-contato"/>
-                </div>
-
-                <h3>GitHub</h3>
-                <p> <a href="https://github.com/valdirsantos714" target="_blank"> /valdirsantos714</a></p>
-
-            </div>
-
-            <div className="container-textos">
-
-                <div>
-                    
-                    <img src="./imgs/linkedin.svg" alt="Linkedin" className="icones-contato"/>
-
-                </div>
-
-                <h3>Linkedln</h3>
-                <p> <a href="https://www.linkedin.com/in/valdir-santos-8553002a4/" target="_blank">/valdirsantosdacunha </a></p>
-
-            </div>
+            
+            
         </div>
 
             <div className="div-flex">
                 <ul className="flex">
-                    <li><img src="./imgs/phone.svg" alt="Github" className="icones-contato"/>
-                    <h3>Telefone:</h3>
-                    <p>(83) 99609-0365</p>
+                    <li>            
+                        <Div srcImg={"/imgs/phone.svg" } alt={"Telefone"} h3={"Telefone:"} p={"(83) 99609-0365"}/>
+
 
                     </li>
                     <li>
-                        <img src="./imgs/email.svg" alt="Email" className="icones-contato"/>
-                        <h3>Email:</h3>
-                     <p>valdirsantost40@gmail.com</p>
+                        <Div srcImg={"/imgs/email.svg"  } alt={"Email"} h3={"Email:"} p={"valdirsantost40@gmail.com"}/>
                     </li>
 
                     <li>
 
-                    <img src="./imgs/github.svg" alt="Github" className="icones-contato"/>
-                    <h3>GitHub</h3>
-                    
-                    <p> <a href="https://github.com/valdirsantos714" target="_blank"> /valdirsantos714</a></p>
+                        <Div srcImg={"/imgs/github.svg" } alt={"github"} h3={"GitHub:"} p={<a href="https://github.com/valdirsantos714" target="_blank"> /valdirsantos714</a>}/>
                     </li>
 
                     <li>
-                    <img src="./imgs/linkedin.svg" alt="Linkedin" className="icones-contato"/>
-                    <h3>Linkedln</h3>
-                     <p> <a href="https://www.linkedin.com/in/valdir-santos-da-cunha-8553002a4/" target="_blank">/valdirsantosdacunha </a></p>
+                    <Div srcImg={"/imgs/linkedin.svg" } alt={"linkedin"} h3={"Linkedin:"} p={<a href="https://www.linkedin.com/in/valdir-santos-8553002a4/" target="_blank">/valdirsantosdacunha </a>}/>
 
                     </li>
                 </ul>

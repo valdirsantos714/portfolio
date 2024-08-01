@@ -1,0 +1,114 @@
+
+@keyframes aparecer {
+    to {
+        opacity: 1;
+
+    } from {
+        opacity: 0;
+    }
+}
+.container-educacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-flow: column wrap;
+    text-align: center;
+    background-color: var(--bg-color);
+    
+}
+
+#titulo-educacao {
+    font-size: 2rem;
+}
+
+.container-educacao h2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: var(--lista);
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+.listas-educacao {
+    border-bottom: 1px solid var(--bg-color);
+    display: flex;
+    gap: 1.3rem;
+    padding: 1rem;
+}
+
+.nomes-cursos-educacao {
+    display: flex;
+    margin-top: 0.3rem;
+    padding: 0.5rem 1rem;
+    flex-flow: column wrap;
+    width: 80%;
+    gap: 0.4rem;
+    background-color: var(--meu-nome);
+
+}
+
+.nomes-cursos-educacao li {
+    padding: 0.2rem;
+    color: var(--bg-color);
+    font-size: 1.2rem;
+    border: 1px solid var(--bg-color);
+    animation: aparecer 1.3s;
+
+}
+
+.logos-educacao {
+    width: 40%;
+}
+
+
+.inputs-educacao {
+    display: none;
+}
+
+.nomes-empresas {
+    padding-bottom: 1rem;
+}
+
+@media (min-width: 1024px) {
+    .nomes-empresas {
+        display: flex;
+        flex-flow: row wrap;
+        gap: 1rem;
+        justify-content: center;
+    }
+
+    .amostra-lista-educacao {
+        width: 40%;
+        height: auto;
+    }
+    
+    #titulo-educacao {
+        padding: 1rem;
+        font-size: 2.5rem;
+    }
+
+    .nomes-cursos-educacao li {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 1728px) {
+    #titulo-educacao {
+        padding: 1rem;
+        font-size: 3rem;
+    }
+
+    .nomes-cursos-educacao li {
+        font-size: 2.3rem;
+    }
+
+    .amostra-lista-educacao h2{
+        font-size: 2.2rem;
+    }
+
+    .amostra-lista-educacao p {
+        font-size: 2.2rem;
+    }
+}
