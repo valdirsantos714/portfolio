@@ -1,5 +1,5 @@
 import "./Contato.css"
-import { Div } from "./components/Div"
+import { Div } from "../componentsGlobais/Div"
 
 export default function Contato() {
     return (

@@ -22,7 +22,10 @@ export default function Header() {
 
                     <a href="#educacao" className="links-header" onClick={mostrarLista}> Educação</a>
                     
-                    <a href="#projetos" className="links-header" onClick={mostrarLista}> Projetos</a> 
+                    <a href="#projetos" className="links-header" onClick={mostrarLista}> Projetos</a>
+                    
+                    <a href="#info-pessoais" className="links-header" onClick={mostrarLista}> Informações Pessoais</a>
+
                 </nav>
                 )}
 
@@ -36,7 +39,10 @@ export default function Header() {
 
                     <a href="#educacao" className="links-header">Educação</a>
                     
-                    <a href="#projetos" className="links-header">Projetos</a> 
+                    <a href="#projetos" className="links-header">Projetos</a>
+                    
+                    <a href="#info-pessoais" className="links-header" onClick={mostrarLista}> Informações Pessoais</a>
+ 
                 </nav>
             </div>
         </header>

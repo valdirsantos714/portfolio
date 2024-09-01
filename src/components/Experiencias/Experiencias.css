@@ -32,8 +32,8 @@
     align-items: center;
 }
 
-.lista-experiencias p {
-    padding-bottom: 1rem;
+.bordas1 p {
+    margin: 1rem;
     font-size: 1.3rem;
 }
 
@@ -42,32 +42,12 @@
     font-size: 1.5rem;
 }
 
-.italico {
+.bordas1 .italico {
     padding-bottom: 0.3rem;
     font-size: 1.4rem;
     font-style: italic;
 }
 
-.lista-tecnologias-experiencias {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    gap: 1.4rem;
-    width: 100%;
-}
-
-.projetos-experiencia {
-    display: none;
-}
-
-#amostra-lista-experiencia {
-    display: none;
-}
-
-#amostra-lista-experiencia:checked ~ .projetos-experiencia {
-    display: block;
-}
 
 .imgs-experiencia {
     width: 25%;
@@ -102,9 +82,25 @@
     .projetos-experiencia a {
         font-size: 1.4rem;
     }
+
+    .lista-experiencias p {
+        font-size: 1.6rem;
+        width: 60%;
+        margin: auto;
+        margin-top: 1rem;
+    }
+
+
+    .bordas1 .italico {
+        font-size: 1.6rem;
+    }
 }
 
 @media (min-width: 1728px) {
+
+    .bordas1 .italico {
+        font-size: 1.8rem;
+    }
     .container-experiencias h2{
         font-size: 3rem;
     }
@@ -137,7 +133,7 @@
     }
 
     .lista-experiencias p {
-        font-size: 2.3rem;
+        font-size: 1.8rem;
     }
 
     .projetos-experiencia a {

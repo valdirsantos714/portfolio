@@ -107,7 +107,7 @@ html {
     .lista-links-header {
         display: flex;
         margin-left: auto;
-        gap: 1rem;
+        gap: 2rem;
         font-size: 1.3rem;
     }
 

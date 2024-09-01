@@ -1,0 +1,50 @@
+.container-info-pessoais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    height: auto;
+    text-align: center;
+    background-color: var(--titulo);
+
+}
+
+.container-info-pessoais h2 {
+    padding: 1rem;
+    color: var(--bg-color);
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+}
+
+.container-info-pessoais h3, p {
+    animation: opacidade 1s;
+    color: var(--bg-color);
+    font-size: 1.5rem;
+    padding-top: 0.4rem;
+}
+
+@media (min-width: 1024px) {
+    .container-info-pessoais h3 {
+        font-size: 1.7rem;
+    }
+
+    .container-info-pessoais p {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (min-width: 1728px) {
+
+    .container-info-pessoais h2 {
+        font-size: 2.8rem;
+    }
+
+    .container-info-pessoais h3 {
+        font-size: 2.5rem;
+    }
+
+    .container-info-pessoais p {
+        font-size: 2.3rem;
+    }
+}

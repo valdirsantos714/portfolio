@@ -90,8 +90,12 @@
     }
 
     .nomes-cursos-educacao li {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
+    .logos-educacao {
+        width: 30%;
+    }
+    
 }
 
 @media (min-width: 1728px) {
@@ -101,14 +105,19 @@
     }
 
     .nomes-cursos-educacao li {
-        font-size: 2.3rem;
+        font-size: 1.4rem;
     }
 
     .amostra-lista-educacao h2{
-        font-size: 2.2rem;
+        font-size: 2rem;
     }
 
     .amostra-lista-educacao p {
-        font-size: 2.2rem;
+        font-size: 1.8rem;
     }
+
+    .logos-educacao {
+        width: 20%;
+    }
+    
 }

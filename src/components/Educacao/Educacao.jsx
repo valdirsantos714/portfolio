@@ -24,7 +24,7 @@ export default function Educacao() {
 
                 <Div alt={"Logo indisponível"} h2={"Fortec Cursos"} lista={cursosFortecCursos}/>
 
-                <Div srcImg={"/imgs/faculdade.png"} alt={"faculdade logo"} h2={"Universidade Pitágoras Unopar Anhanguera"} lista={faculdade}/>
+                <Div srcImg={"/imgs/faculdade.png"} alt={"faculdade logo"} h2={"Universidade Pitágoras Unopar Anhanguera EAD, Noturno"} lista={faculdade}/>
                 
                </div>
         </section>

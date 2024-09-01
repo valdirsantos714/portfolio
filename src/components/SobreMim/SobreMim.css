@@ -29,17 +29,16 @@
 
 @media (min-width: 1024px) {
     .container-sobre-mim {
-        padding: 2rem;
     }
 
     .container-sobre-mim p {
         font-size: 1.6rem;
+        width: 60%;
+        margin: auto;
     }
 
     .texto-sobremim {
-        height: 50vh;
-        display: flex;
-        flex-flow: column wrap;
+        height: auto;
         justify-content: center;
         align-items: center;
 
@@ -57,6 +56,7 @@
         flex-flow: column wrap;
         align-items: center;
         justify-content: center;
+        height: 80vh;
     }
     
     .texto-sobremim {
@@ -71,5 +71,6 @@
 
     .container-sobre-mim p {
         font-size: 2.5rem;
+        width: 100%;
     }
 }

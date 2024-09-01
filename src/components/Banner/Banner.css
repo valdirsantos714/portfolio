@@ -17,7 +17,7 @@
 }
 
 .banner {
-    height: 95vh;
+    height: 90vh;
     margin-top: 0;
     display: flex;
     align-items: center;
@@ -45,7 +45,6 @@
 .foto-banner {
     animation: opacidade 1.5s;
     width: 80%;
-    padding-bottom: 0.7rem;
     border-radius: 50%;
 }
 

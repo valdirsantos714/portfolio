@@ -1,6 +1,6 @@
 import "./index.css"
 
-export const Div = ({srcImg, alt, h3, p}) => {
+export const Div = ({srcImg, alt, h3, p, link}) => {
     return (
         <div className="container-textos">
 

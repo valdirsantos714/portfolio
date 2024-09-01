@@ -1,3 +1,4 @@
+
 #titulo-secao {
     color: var(--lista);
     font-size: 2.2rem;
@@ -24,9 +25,11 @@
     margin: auto;
     justify-content: center;
     align-items: center;
+    animation: opacidade 1.5s;
 }
 
 .lista-projetos  h2{
+    animation: opacidade 1.5s;
     font-size: 1.8rem;
     color: var(--lista);
     text-align: center;
@@ -42,3 +45,46 @@
 
 }
 
+@media (min-width: 1024px) {
+    
+
+    .li-projetos {
+        padding: 1rem;
+        width: 70%;
+        border: 1px solid var(--titulo);
+    }
+
+    .li-projetos > a > img {
+        margin: auto;
+        width: 50%;
+    }
+
+    .lista-projetos {
+        flex-flow: row wrap;
+        gap: 1rem;
+    }
+
+    .lista-projetos  .li-projetos .imgs-projetos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        
+    }
+
+    .li-projetos h2 {
+        padding: 1rem;
+        font-size: 1.8rem;
+    }
+
+    .li-projetos p {
+        font-size: 1.6rem;
+        padding-bottom: 0.7rem;
+        width: 60%;
+        text-align: center;
+        margin: auto;
+    }
+
+    
+     
+}
