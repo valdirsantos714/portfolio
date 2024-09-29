@@ -12,7 +12,7 @@ export default function Experiencias() {
                         <h3 className="h3-negrito">Desenvolvedor Full Stack Voluntário na Codigo Certo Coders <br /> <span className="italico">Remoto, Meio Período</span>
                         </h3>
 
-                        <span className="italico">Agosto 2024 – Presente</span>
+                        <span className="italico">Agosto 2024 – Setembro 2024</span>
 
                         <p>Desenvolvo e mantenho aplicações back-end, garantindo a eficiência do servidor, usando Java, Spring Boot e Spring Security. <br /> Crio e executo testes automatizados para assegurar a qualidade do software, utilizando JUnit e Mockito. <br /> Participo de revisões de código, garantindo boas práticas de desenvolvimento.  <br /> Colaboro com o time de Front-End, auxiliando na implementação de interfaces, integrações, responsividade, usabilidade e performance, utilizando React JS, Javascript, Typescript e Tailwind CSS.</p>
                     </li>
