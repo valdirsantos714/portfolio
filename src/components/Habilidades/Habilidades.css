@@ -19,18 +19,31 @@
     color: var(--bg-color);
 }
 
+/*Aqui mudado*/
 .container-habilidades ul {
-    display: flex;
-    flex-flow: wrap;
+    display: block;
     width: 100%;
     gap: 1.5rem;
     justify-content: center;
     align-items: center;
 }
 
+.container-habilidades img {
+    width: 50%;
+}
+
+.container-habilidades li > h2 {
+    font-size: 1.5rem;
+} 
+/*Aqui mudado*/
+
 .container-habilidades li {
     animation: rodar 2s;
-    width: 30%;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 2px solid var(--bg-color);
 }
 
 .imgs-habilidades-grandes {
@@ -44,6 +57,19 @@
 @media (min-width: 1024px) {
     .container-habilidades img {
         width: 20%;
+    }
+
+    .container-habilidades li {
+        animation: rodar 2s;
+        width: 30%;
+        border: 2px solid var(--bg-color);
+        padding: 0.3rem;
+        margin: 1rem;
+    }
+
+    .container-habilidades ul {
+        display: flex;
+        flex-flow: row wrap;
     }
 }
 
