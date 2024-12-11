@@ -15,10 +15,8 @@ export default function Contato() {
 
             <Div srcImg={"/imgs/github.svg" } alt={"github"} h3={"GitHub:"} p={<a href="https://github.com/valdirsantos714" target="_blank"> /valdirsantos714</a>}/>
 
-            <Div srcImg={"/imgs/linkedin.svg" } alt={"linkedin"} h3={"Linkedin:"} p={<a href="https://www.linkedin.com/in/valdir-santos-8553002a4/" target="_blank">/valdirsantosdacunha </a>}/>
+            <Div srcImg={"/imgs/linkedin.svg" } alt={"linkedin"} h3={"Linkedin:"} p={<a href="https://www.linkedin.com/in/valdir-santos-8553002a4/" target="_blank">/valdirsantos </a>}/>
 
-            
-            
         </div>
 
             <div className="div-flex">

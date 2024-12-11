@@ -28,11 +28,9 @@
 }
 
 @media (min-width: 1024px) {
-    .container-sobre-mim {
-    }
 
     .container-sobre-mim p {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         width: 60%;
         margin: auto;
     }
@@ -56,7 +54,6 @@
         flex-flow: column wrap;
         align-items: center;
         justify-content: center;
-        height: 80vh;
     }
     
     .texto-sobremim {
@@ -70,7 +67,7 @@
     }
 
     .container-sobre-mim p {
-        font-size: 2.5rem;
+        font-size: 1.7rem;
         width: 100%;
     }
 }
