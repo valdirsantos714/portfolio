@@ -12,23 +12,25 @@ Antes de começar, certifique-se de ter as seguintes ferramentas instaladas em s
 ## Instalação
 
 1. Clone este repositório para o seu computador:
-    ```bash
-    git clone https://github.com/valdirsantos714/portfolio.git
-    ```
+
+   ```bash
+   git clone https://github.com/valdirsantos714/portfolio.git
+   ```
 
 2. Navegue até o diretório do projeto:
-    ```bash
-    cd portfolio
-    ```
+
+   ```bash
+   cd portfolio
+   ```
 
 3. Instale as dependências do projeto:
-    ```bash
-    npm install
-    ```
-    ou
-    ```bash
-    yarn install
-    ```
+   ```bash
+   npm install
+   ```
+   ou
+   ```bash
+   yarn install
+   ```
 
 ## Execução
 
@@ -51,8 +53,8 @@ O projeto estará disponível em `http://localhost:5173`.
 
 Caso tenha alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato:
 
-- Email: valdirsantost40@gmail.com 
-- LinkedIn: [/valdirsantosdacunha](https://www.linkedin.com/in/valdir-santos-da-cunha-8553002a4)
+- Email: valdirsantost40@gmail.com
+- LinkedIn: [/valdirsantosdacunha](https://www.linkedin.com/in/valdir-santos-8553002a4/)
 - GitHub: [/valdirsantos714](https://github.com/valdirsantos714)
 
 ---
